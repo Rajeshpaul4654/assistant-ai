@@ -1,0 +1,80 @@
+14:16:37 [INFO] memory.permanent: Permanent memory loaded. 1 items in memory.
+14:16:37 [INFO] brain.llm: JARVIS brain initialized with Groq llama-3.3-70b-versatile.
+14:16:37 [WARNING] actions.spotify: Spotify credentials not configured.
+14:16:37 [INFO] actions.executor: Executor initialized.
+14:16:37 [INFO] __main__: Starting JARVIS web dashboard on http://127.0.0.1:5000
+14:17:11 [INFO] __main__: Web intent detected: {'intent': 'chat', 'target': None}
+14:17:11 [DEBUG] brain.llm: Sending to Groq: hi...
+14:17:12 [INFO] brain.llm: JARVIS responded (40 chars)
+14:17:45 [INFO] __main__: Web intent detected: {'intent': 'chat', 'target': None}
+14:17:45 [DEBUG] brain.llm: Sending to Groq: im good ,how about you...
+14:17:46 [INFO] brain.llm: JARVIS responded (105 chars)
+14:18:08 [INFO] __main__: Web intent detected: {'intent': 'chat', 'target': None}
+14:18:08 [DEBUG] brain.llm: Sending to Groq: have had your lunch...
+14:18:08 [INFO] brain.llm: JARVIS responded (119 chars)
+14:18:34 [INFO] __main__: Web intent detected: {'intent': 'weather', 'city': 'delhi'}
+14:18:54 [INFO] __main__: Web intent detected: {'intent': 'open_website', 'target': 'youtube'}
+14:19:17 [INFO] __main__: Web intent detected: {'intent': 'spotify_open', 'target': None}
+14:20:10 [INFO] __main__: Web intent detected: {'intent': 'spotify_open', 'target': None}
+14:21:05 [INFO] __main__: Web intent detected: {'intent': 'whatsapp', 'command': 'open whatsapp and say hi to lucky'}
+14:28:21 [INFO] memory.permanent: Permanent memory loaded. 1 items in memory.
+14:28:21 [INFO] brain.llm: JARVIS brain initialized with Groq llama-3.3-70b-versatile.
+14:28:21 [WARNING] actions.spotify: Spotify credentials not configured.
+14:28:21 [INFO] actions.executor: Executor initialized.
+14:28:21 [INFO] __main__: Starting JARVIS web dashboard on http://127.0.0.1:5000
+14:29:01 [INFO] __main__: Web intent detected: {'intent': 'chat', 'target': None}
+14:29:01 [DEBUG] brain.llm: Sending to Groq: Jarvis...
+14:29:02 [INFO] brain.llm: JARVIS responded (40 chars)
+14:29:19 [INFO] __main__: Web intent detected: {'intent': 'weather', 'city': 'hyderabad'}
+14:29:46 [INFO] __main__: Web intent detected: {'intent': 'whatsapp', 'command': 'open whatsapp'}
+14:30:05 [INFO] __main__: Web intent detected: {'intent': 'whatsapp', 'command': 'open whatsapp'}
+14:30:25 [INFO] __main__: Web intent detected: {'intent': 'whatsapp', 'command': 'just open whatsapp'}
+14:30:33 [INFO] __main__: Web intent detected: {'intent': 'spotify_open', 'target': None}
+15:51:56 [INFO] __main__: Web intent detected: {'intent': 'whatsapp', 'command': 'open whatsapp'}
+15:52:17 [INFO] memory.permanent: Permanent memory loaded. 1 items in memory.
+15:52:17 [INFO] brain.llm: JARVIS brain initialized with Groq llama-3.3-70b-versatile.
+15:52:17 [WARNING] actions.spotify: Spotify credentials not configured.
+15:52:17 [INFO] actions.executor: Executor initialized.
+15:52:17 [INFO] __main__: Starting JARVIS web dashboard on http://127.0.0.1:5000
+15:52:42 [INFO] __main__: Web intent detected: {'intent': 'open_website', 'target': 'whatsapp'}
+13:38:30 [INFO] memory.permanent: Permanent memory loaded. 1 items in memory.
+13:38:30 [INFO] brain.llm: JARVIS brain initialized with Groq llama-3.3-70b-versatile.
+13:38:30 [WARNING] actions.spotify: Spotify credentials not configured.
+13:38:30 [INFO] actions.executor: Executor initialized.
+13:38:30 [INFO] __main__: Starting JARVIS web dashboard on http://127.0.0.1:5000
+13:39:10 [INFO] __main__: Web intent detected: {'intent': 'weather', 'city': None}
+13:39:45 [INFO] __main__: Web intent detected: {'intent': 'chat', 'target': None}
+13:39:45 [DEBUG] brain.llm: Sending to Groq: who is our Prime Minister...
+13:39:47 [INFO] brain.llm: JARVIS responded (219 chars)
+13:40:02 [INFO] __main__: Web intent detected: {'intent': 'chat', 'target': None}
+13:40:02 [DEBUG] brain.llm: Sending to Groq: India...
+13:40:02 [INFO] brain.llm: JARVIS responded (222 chars)
+13:40:32 [INFO] __main__: Web intent detected: {'intent': 'chat', 'target': None}
+13:40:32 [DEBUG] brain.llm: Sending to Groq: who is the president of India...
+13:40:32 [INFO] brain.llm: JARVIS responded (153 chars)
+13:41:33 [INFO] __main__: Web intent detected: {'intent': 'chat', 'target': None}
+13:41:33 [DEBUG] brain.llm: Sending to Groq: what is the past tense of past tense of have...
+13:41:33 [INFO] brain.llm: JARVIS responded (174 chars)
+13:50:39 [INFO] memory.permanent: Permanent memory loaded. 1 items in memory.
+13:50:39 [INFO] brain.llm: JARVIS brain initialized with Groq llama-3.3-70b-versatile.
+13:50:39 [WARNING] actions.spotify: Spotify credentials not configured.
+13:50:39 [INFO] actions.executor: Executor initialized.
+13:50:39 [INFO] __main__: Starting JARVIS web dashboard on http://127.0.0.1:5000
+13:51:03 [INFO] __main__: Web intent detected: {'intent': 'time', 'target': None}
+13:57:55 [INFO] memory.permanent: Permanent memory loaded. 1 items in memory.
+13:57:55 [INFO] brain.llm: JARVIS brain initialized with Groq llama-3.3-70b-versatile.
+13:57:55 [WARNING] actions.spotify: Spotify credentials not configured.
+13:57:55 [INFO] actions.executor: Executor initialized.
+13:57:55 [INFO] __main__: Starting JARVIS web dashboard on http://127.0.0.1:5000
+13:58:36 [INFO] __main__: Web intent detected: {'intent': 'time', 'target': None}
+13:59:08 [INFO] __main__: Web intent detected: {'intent': 'chat', 'target': None}
+13:59:08 [DEBUG] brain.llm: Sending to Groq: which is the best place to eat biryani...
+13:59:08 [INFO] brain.llm: JARVIS responded (272 chars)
+13:59:41 [INFO] __main__: Web intent detected: {'intent': 'open_website', 'target': 'youtube'}
+13:59:52 [INFO] __main__: Web intent detected: {'intent': 'chat', 'target': None}
+13:59:52 [DEBUG] brain.llm: Sending to Groq: YouTube...
+13:59:53 [INFO] brain.llm: JARVIS responded (215 chars)
+14:00:15 [INFO] __main__: Web intent detected: {'intent': 'spotify_open', 'target': None}
+14:00:35 [INFO] __main__: Web intent detected: {'intent': 'chat', 'target': None}
+14:00:35 [DEBUG] brain.llm: Sending to Groq: spotify...
+14:00:35 [INFO] brain.llm: JARVIS responded (192 chars)

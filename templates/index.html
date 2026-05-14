@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ jarvis_name }} Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body data-wake-word="{{ jarvis_name|lower }}">
+    <main class="container">
+        <h1>{{ jarvis_name }} Web Dashboard</h1>
+        <p class="subtitle">
+            Turn on <strong>Wake word</strong> once (Chrome/Edge), then say
+            <strong>{{ jarvis_name }}</strong> anytime — the command mic opens automatically.
+            Or use <strong>Mic</strong> for a single push-to-talk turn when wake is off.
+        </p>
+
+        <section class="card">
+            <div id="health" class="health">Checking server health...</div>
+            <div class="voice-toolbar">
+                <button id="wake-toggle-button" type="button">Wake word: off</button>
+            </div>
+            <div id="voice-status" class="voice-status">Voice: checking browser support...</div>
+            <div id="chat-log" class="chat-log" aria-live="polite"></div>
+            <form id="chat-form" class="chat-form">
+                <input
+                    id="message-input"
+                    type="text"
+                    placeholder="Type your message..."
+                    autocomplete="off"
+                    required
+                >
+                <button id="mic-button" type="button">Mic</button>
+                <button id="tts-toggle-button" type="button">Voice On</button>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #101623;
+    color: #e8edf7;
+}
+
+.container {
+    max-width: 860px;
+    margin: 32px auto;
+    padding: 0 16px;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    margin-top: 0;
+    color: #a8b6cf;
+}
+
+.card {
+    background: #171f31;
+    border: 1px solid #2a3652;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.health {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #cfd8ea;
+}
+
+.voice-toolbar {
+    margin-bottom: 8px;
+}
+
+.voice-toolbar button {
+    margin-right: 8px;
+}
+
+#wake-toggle-button.on {
+    background: #2d8a5e;
+}
+
+#wake-toggle-button.on:hover {
+    background: #24764f;
+}
+
+.voice-status {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #9fb0cf;
+}
+
+.chat-log {
+    min-height: 320px;
+    max-height: 420px;
+    overflow-y: auto;
+    border: 1px solid #2a3652;
+    border-radius: 8px;
+    padding: 12px;
+    background: #0f1523;
+}
+
+.msg {
+    margin: 8px 0;
+    padding: 10px 12px;
+    border-radius: 8px;
+    line-height: 1.4;
+    white-space: pre-wrap;
+}
+
+.msg.user {
+    background: #25355a;
+}
+
+.msg.jarvis {
+    background: #1f5b4c;
+}
+
+.chat-form {
+    margin-top: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+#message-input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #324369;
+    background: #0f1523;
+    color: #e8edf7;
+}
+
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #4f7cff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3e69e3;
+}
+
+#mic-button.listening {
+    background: #c95353;
+}
